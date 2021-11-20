@@ -6,7 +6,7 @@ n = int(n)
 data = [int(s) for s in data_file.readline().split()]
 
 def feature_1():
-    pass
+    print("Edited in hotfix")
 
 def handle_heap(m):
     flag = True
