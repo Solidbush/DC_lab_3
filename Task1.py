@@ -5,6 +5,8 @@ n = data_file.readline()
 n = int(n)
 data = [int(s) for s in data_file.readline().split()]
 
+def feature_1():
+    pass
 
 def handle_heap(m):
     flag = True
@@ -20,3 +22,4 @@ def handle_heap(m):
 
 
 handle_heap(data)
+
